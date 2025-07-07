@@ -1,0 +1,57 @@
+p{
+  margin-bottom: 25px;
+  font-family: Roboto;
+}
+@keyframes color-shift-hello-there {
+  0% {color : blue}
+  20% {color: aqua;}
+  40% {color: lightgreen;}
+  60% {color: green;}
+  80% {color: rgb(0, 88, 77)}
+  100% {color : blue}
+}
+@keyframes color-shift-grievous {
+  0% {color : darkred;}
+  50% {color: red;}
+  100% {color: darkred;}
+}
+@keyframes color-shift-obi-wan {
+  0% {color : blue}
+  50% {color: rgb(79, 150, 255);}
+  100% {color: blue;}
+}
+.hello-there{
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  animation: color-shift-hello-there 3s infinite;
+}
+.general-grievous{
+  text-align: right;
+  width: 500px;
+  margin-left: auto;
+  margin-right: 0;
+  font-size: 20px;
+  animation: color-shift-grievous 3s infinite;
+}
+.scene-desc{
+  text-align: center;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: italic;
+  line-height: 23px;
+}
+.obi-wan{
+  font-size: 20px;
+  animation: color-shift-obi-wan 3s infinite;
+}
+.count-dooku{
+  text-decoration: underline dashed;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.count-dooku:hover{
+  color: black;
+  cursor: crosshair;
+}
